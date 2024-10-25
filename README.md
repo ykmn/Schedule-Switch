@@ -1,12 +1,11 @@
 # Schedule-Switch
 Скрипт для запуска приложения в указанный промежуток времени
 
-Roman Ermakov <r.ermakov@emg.fm>
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+[![Licence](https://img.shields.io/github/license/ykmn/ff-Logger?style=for-the-badge)](./LICENSE)
+![Microsoft Windows](https://img.shields.io/badge/Microsoft-Windows-%FF5F91FF.svg?style=for-the-badge&logo=Microsoft%20Windows&logoColor=white)
 
-v1.01 2024-10-25 Улучшены проверки; добавлено закрытие программы-конкурента;
-добавлено управление задачей Планировщика.
-
-v1.00 2024-06-18 Первая версия.
+> Roman Ermakov <r.ermakov@emg.fm>
 
 ### Задача:
 
@@ -68,3 +67,10 @@ $conf = "$env:SYSTEMROOT\WindowsUpdate.txt"
 запуска в +5 минут от текущего времени), `stop` (устанавливает задание в Disabled) и
 `start` (устанавливает задание в Enabled и устанавливает триггер запуска в +5 минут
 от текущего времени)
+
+### История версий:
+
+* v1.01 2024-10-25 Улучшены проверки; добавлено закрытие программы-конкурента;
+добавлено управление задачей Планировщика.
+
+* v1.00 2024-06-18 Первая версия.
